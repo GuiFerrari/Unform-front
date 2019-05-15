@@ -1,0 +1,110 @@
+.container {
+    background: #252525;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+
+.container header {
+    text-align: center;
+}
+
+.container header .logo {
+    margin: 15px 0;
+}
+
+.body-user {
+    width: 100%;
+    max-width: 940px;
+    margin: 30px auto 0;
+}
+
+.body-user .infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.body-user .infos p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.body-user .infos button {
+    width: auto;
+}
+
+.boxForm {
+    min-width: 400px;
+    border-radius: 7px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 1px 4px #00000078;
+    margin-bottom: 20px;
+}
+
+.color {
+    background: #e51b23 !important;
+    border-color: #e51b23 !important;
+    width: 100%;
+}
+
+.color:hover {
+    background: #ea373e !important;
+    border-color: #ea373e !important;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ant-modal-body .ant-input {
+    margin-top: 15px;
+}
+
+.ant-modal-body .ant-input:first-of-type {
+    margin-top: 0;
+}
+
+.ant-modal-body span {
+    color: red;
+    font-style: italic;
+}
+
+.btnSave {
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #ffffff;
+    background: #e51b23 !important;
+    border-color: #e51b23 !important;
+}
+
+.btnSave:hover {
+    background: #ea373e !important;
+    border-color: #ea373e !important;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
